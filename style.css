@@ -1,0 +1,55 @@
+body {
+  font-family: "calibri";
+  font-size: 18px;
+  font-weight: normal;
+  text-align: left;
+  background-color: #f5f5f5;
+  color: rgb(3, 6, 0);
+  line-height: normal;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-align: justify;
+}
+
+.round-image {
+  border-radius: 50%;
+  width: 210px;
+  height: 210px;
+}
+
+h1,
+h2 {
+  color: navy;
+  text-transform: capitalize;
+  font-style: italic;
+}
+
+h1::first-letter {
+  font-size: 50px;
+}
+
+.upper {
+  font-size: 50px;
+}
+
+#name {
+  text-shadow: 2px 2px 4px #333333;
+  letter-spacing: 2px;
+}
+
+.project {
+  font-weight: bold;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+a:visited {
+  color: #6610f2;
+}
